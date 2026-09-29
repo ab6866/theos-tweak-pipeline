@@ -1,0 +1,23 @@
+# 构建期生成物（含目标特征，绝不入库）
+layout/
+ul_config.h
+Tweak.x
+control
+*.plist
+packages/
+.theos/
+dist/
+build.log
+
+# 编译中间产物
+*.o
+*.dylib
+*.deb
+
+# 本地 secrets（含真实标识）
+secrets.env
+
+# 系统
+.DS_Store
+__pycache__/
+*.pyc
